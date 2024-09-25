@@ -7,10 +7,14 @@ public class AddressBook {
     }
 
     public void addBuddy(BuddyInfo b){
-        addresses.add(b);
+        if (b != null){
+            addresses.add(b);
+        }
     }
     public void removeBuddy(BuddyInfo b){
-        addresses.remove(b);
+        if (b != null){
+            addresses.remove(b);
+        }
     }
 
     public static void main(String[] args){
