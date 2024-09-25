@@ -1,0 +1,17 @@
+1. src,.idea
+
+2. java.base, java.compiler, java.datatransfer
+
+3. public class BuddyInfo {
+       public static void main(String[] args) {
+           System.out.println("Hello World!");
+       }
+   }
+
+C:\Users\andre\.jdks\openjdk-22.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=53623:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\Public\Documents\3rd year\3110\Labs\Lab1\out\production\Lab1" BuddyInfo
+Hello World!
+
+Process finished with exit code 0
+
+
+4. Lab1>out>production>Lab1>BuddyInfo.class
